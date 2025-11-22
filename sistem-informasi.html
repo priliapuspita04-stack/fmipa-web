@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Program Studi Sistem Informasi - FMIPA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        /* NAVBAR STYLE */
+        .nav-bar {
+            background: #fffb00;
+            padding: 10px 0;
+        }
+        .nav-bar .nav-link {
+            color: #373734 !important;
+            font-weight: 500;
+        }
+        .nav-bar .dropdown-menu {
+            background: #f8f9fa;
+        }
+        .nav-bar .dropdown-item:hover {
+            background: #fffb00;
+        }
+
+        /* HERO */
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.5),
+                    rgba(0, 0, 0, 0.5)),
+                url('https://mipa.untan.ac.id/file/slideshow/02e4cf16378ac1e1214fcef62c2d231e.JPG');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 120px 0;
+            text-align: center;
+        }
+
+        /* VISI MISI */
+       .visi-img {
+            width:  400px;
+            height: 360px;
+            border-radius: 10px;
+        }
+
+
+        /* KONTAK */
+        #kontak {
+            background-color: #373734;
+            color: white;
+        }
+
+        /* FOOTER */
+        footer {
+            background: #f8f9fa;
+            padding: 20px 0;
+            text-align: center;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HERO (NAVBAR DIPINDAH BAWAH HERO) -->
+    <section class="hero" id="beranda">
+        <div class="container">
+            <h1>Program Studi Sistem Informasi</h1>
+        </div>
+    </section>
+
+    <!-- NAVBAR DI BAWAH FOTO -->
+    <nav class="nav-bar">
+        <div class="container d-flex align-items-center">
+            <div class="d-flex align-items-center me-4">
+                <img src="https://upload.wikimedia.org/wikipedia/id/0/03/Lambang_Universitas_Tanjungpura.png"
+                     alt="Logo FMIPA"
+                     style="width:40px; margin-right:10px;">
+                <span style="font-weight:bold; color:#444141;">Fakultas Matematika dan Ilmu Pengetahuan Alam</span>
+            </div>
+
+            <ul class="nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#beranda">Beranda</a></li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Tentang Kami</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#visi-misi">Visi dan Misi</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Prodi</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#matematika">Matematika</a></li>
+                        <li><a class="dropdown-item" href="#kimia">Kimia</a></li>
+                        <li><a class="dropdown-item" href="#fisika">Fisika</a></li>
+                        <li><a class="dropdown-item" href="#biologi">Biologi</a></li>
+                        <li><a class="dropdown-item" href="#ilmu-kelautan">Ilmu Kelautan</a></li>
+                        <li><a class="dropdown-item" href="#geofisika">Geofisika</a></li>
+                        <li><a class="dropdown-item" href="sistem-informasi.html">Sistem Informasi</a></li>
+                        <li><a class="dropdown-item" href="#rekayasa-sistem-komputer">Rekayasa Sistem Komputer</a></li>
+                        <li><a class="dropdown-item" href="#statistika">Statistika</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- PENJELASAN JURUSAN -->
+    <section class="container my-5">
+        <h2>Penjelasan Jurusan</h2>
+        <p>
+            Program Studi Sistem Informasi di FMIPA fokus pada pengembangan, implementasi, dan manajemen sistem informasi
+            yang terintegrasi dengan teknologi informasi. Mahasiswa akan belajar tentang analisis data, desain sistem,
+            pengembangan aplikasi, dan etika teknologi.
+        </p>
+    </section>
+
+    <!-- VISI & MISI  -->
+    <section id="visi-misi" class="bg-light py-5">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <!-- FOTO SAMPING VISI MISI -->
+                <div class="col-md-4 mb-4">
+                    <img src="https://mipa.untan.ac.id/file/galeri/d4a091af6b108db986755f11f70a1190DSC_0504.webp"
+                         class="visi-img">
+                </div>
+
+                <!-- VISI & MISI -->
+                <div class="col-md-8">
+                    <h3 class="mb-4">Visi</h3>
+                    <p>
+                        Program Studi yang inovatif dan adaptif dalam mengembangkan keilmuan dan mengelola sistem informasi guna mendukung transformasi digitalisasi potensi kekayaan lokal.
+                    </p>
+
+                    <h3 class="mt-4">Misi</h3>
+                    <li>Mengembangkan dan mengimplementasikan program pendidikan di bidang sistem informasi yang inovatif dengan menyesuaikan perkembangan zaman.</li>
+                    <li>Melaksanakan penelitian dalam bidang sistem informasi yang berfokus pada lingkungan tropis dan mampu berkompetisi sacara nasional dan internasional.</li>
+                    <li>Memberikan niai dan kontribusi berupa kegiatan pengabdian dalam inovasi di bidang Sistem Informasi kepada pemerintah, industri ,dan masyarakat.</li>
+                    <li>Menjalin kemitraan dengan pemerintah industri maupun institus lainnya pada bidang sistem informasi untuk mendukung kegiatan Tridhatma Perguruan Tinggi.</li>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DOSEN PENGAJAR -->
+<section class="container my-5">
+    <h2 class="text-center mb-4">Dosen Pengajar</h2>
+
+    <style>
+        .dosen-card {
+            border-radius: 20px;
+            overflow: hidden;
+            background: #f4f2d7; 
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            transition: 0.25s ease;
+        }
+        .dosen-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 26px rgba(0,0,0,0.15);
+        }
+
+        /* FOTO OVAL */
+        .dosen-img {
+            width: 230px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 50% / 40%;
+            display: block;
+            margin: 0 auto 15px auto;
+            border: 5px solid #fff5b1;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+            background: #eee;
+        }
+
+        .dosen-name {
+            font-size: 18px;
+            font-weight: 700;
+            color: #3c3c3c;
+        }
+
+        .dosen-desc {
+            color: #5f5f5f;
+            font-size: 14px;
+        }
+
+       
+        .row.g-4 {
+            row-gap: 30px;
+        }
+    </style>
+
+    <div class="row g-4">
+
+        <div class="col-md-4">
+            <div class="dosen-card">
+                <img class="dosen-img"
+                     src="https://sisfo.untan.ac.id/wp-content/uploads/2023/11/bu-renny-1-1023x1536-removebg-preview-e1698993265598.png">
+                <div class="dosen-name">Renny Puspita Sari, S.T., M.T.</div>
+                <div class="dosen-desc">Ketua Jurusan Sistem Informasi.</div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="dosen-card">
+                <img class="dosen-img"
+                     src="https://sisfo.untan.ac.id/wp-content/uploads/2023/11/1699579752930-removebg-preview-e1699602059606.png">
+                <div class="dosen-name">Ibnur Rusi, S.Kom., M.M.</div>
+                <div class="dosen-desc">Sekretariat Jurusan Sistem Informasi.</div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="dosen-card">
+                <img class="dosen-img"
+                     src="https://sisfo.untan.ac.id/wp-content/uploads/2023/10/citations-2.jpeg">
+                <div class="dosen-name">Nurul Mutiah, S.T., M.T.</div>
+                <div class="dosen-desc">Ekspert Keamanan Sistem Informasi.</div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="dosen-card">
+                <img class="dosen-img"
+                     src="https://sisfo.untan.ac.id/wp-content/uploads/2024/01/pak-dian-new-1-e1714281947163.jpeg">
+                <div class="dosen-name">Dian Prawira, S.T., M.Eng.</div>
+                <div class="dosen-desc">Ketua Pengembangan Perangkat Lunak.</div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="dosen-card">
+                <img class="dosen-img"
+                     src="https://sisfo.untan.ac.id/wp-content/uploads/2024/04/fotopakilham.jpg">
+                <div class="dosen-name">Ilhamsyah, S.Si., M.Cs.</div>
+                <div class="dosen-desc">Ketua Kelompok Keahlian Intelejensi Bisnis.</div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="dosen-card">
+                <img class="dosen-img"
+                     src="https://sisfo.untan.ac.id/wp-content/uploads/2024/04/WhatsApp-Image-2024-04-28-at-11.49.07.jpeg">
+                <div class="dosen-name">Syahru Rahmayuda, S.Kom., M.Kom.</div>
+                <div class="dosen-desc">Intelejensi Bisnis.</div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="dosen-card">
+                <img class="dosen-img"
+                     src="https://sisfo.untan.ac.id/wp-content/uploads/2024/04/foto-pak-ferdy-100x100-1.jpg">
+                <div class="dosen-name">Ferdy Febriyanto, S.Kom., M.Kom.</div>
+                <div class="dosen-desc">Pengembangan Perangkat Lunak.</div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+    <!-- KONTAK -->
+    <section id="kontak" class="py-5 text-center">
+        <div class="container">
+            <h2>Hubungi Kami</h2>
+            <p>Email: info@fmipa.untan.ac.id | Telepon: (021) 123-4567</p>
+            <p>JL. Prof. Dr. H. Hadari Nawawi – Kode Pos: 78124k</p>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container text-center">
+            <p>&copy; 2025 Fakultas Matematika dan Ilmu Pengetahuan Alam. Semua hak dilindungi.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
